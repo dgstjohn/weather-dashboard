@@ -6,10 +6,28 @@ header {
     font-size: 36px;
 }
 
+h2, h3 {
+    font-weight: bold;
+}
 #city {
     margin-bottom: 10px;
 }
 
 .btn-block {
     margin-bottom: 10px;
+    width: 100%;
+}
+
+#todays-weather {
+    border: 1px solid black;
+    margin: 10px 0 20px 0;
+}
+
+#todays-weather h2, p {
+    padding-left: 15px;;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
 }
